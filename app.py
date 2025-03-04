@@ -2,6 +2,13 @@ import streamlit as st
 import joblib
 import numpy as np
 
+# Set custom page config (Title & Favicon)
+st.set_page_config(
+    page_title="Crop Recommendation System 🌾",  # Custom title
+    page_icon="🌱",  # Emoji as favicon (or use an image)
+    layout="centered",  # Options: "wide", "centered"
+)
+
 # Load the trained model
 model = joblib.load("crop_recommendation_model.pkl")
 
