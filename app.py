@@ -28,3 +28,14 @@ if st.button("Predict Crop"):
     
     # Display result
     st.success(f"🌱 Recommended Crop: **{prediction[0]}**")
+
+# Footer
+st.markdown("""
+---
+### 👨‍💻 Made by:
+- Sahil Yadav <a href="https://github.com/Sahilll94" target="_blank">
+  <img src="https://img.icons8.com/ios-glyphs/30/ffffff/github.png" width="20"></a>
+- Chandra Sekhar Dutta <a href="https://github.com/Chandra-Sekhar-Dutta" target="_blank">
+  <img src="https://img.icons8.com/ios-glyphs/30/ffffff/github.png" width="20"></a>
+""", unsafe_allow_html=True)
+
